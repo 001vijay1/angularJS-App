@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <p>Course:</p>
+<table border="1px">
+   <tr>
+      <th>Name</th>
+      <th>fee</th>
+   </tr>
+   
+   <tr ng-repeat = "course in student.courses">
+      <td>{{ course.name }}</td>
+      <td>{{ course.fee }}</td>
+   </tr>
+</table>
+</body>
+</html>

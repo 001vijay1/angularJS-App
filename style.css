@@ -1,0 +1,11 @@
+.Login{
+    display: inline-block;
+    text-align: center;
+    margin: 20px;
+    margin-top: 45px;
+    border: 1px solid #ebd9d9;
+    box-shadow: 0px 2px 2px #cccccc;
+    width: 18%;
+    padding: 20px;
+    background-color:pink;
+}
